@@ -90,3 +90,8 @@ which has methods to perform complex operations such as Square root, and power o
  ## Wrapper Objects
  ** Temporary objects are created when you access a property of a string, number, or boolean the are known as **wrapper objects**
  String, Number, and Booleans are not objects when your refer to a property of these types a temporary wrapper is created that converts the types to objects the object inherits methods that is used to resolve property reference
+
+## Immutables Primitive Values and Mutables Object References
+ Primitives values in JavaScript are immutable while object are mutable i.e value can change over time
+ Primitives can be compared by values using === operator
+ **objects differ from primitives because they are mutable their value can change

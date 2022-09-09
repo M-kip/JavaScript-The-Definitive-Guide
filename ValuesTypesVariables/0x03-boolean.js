@@ -13,3 +13,11 @@ if (a == 4)
 else
   a += 1;
 console.log('Value of a after conditional statement', a);
+
+if ((x == 0 && y == 0) || !(z == 0)) {
+  // x and y are both zero or z is non-zero
+  console.log('Boolean condition passed');
+} else {
+  // if consdition is not met
+  console.log('Boolean condition not met');
+}
