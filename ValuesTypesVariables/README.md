@@ -68,3 +68,25 @@ which has methods to perform complex operations such as Square root, and power o
  Converts to false
 
  While all positive values and objects convert to true
+
+# null & undefined
+ These keywords are used to define the absence of a value
+ **undefined** is a predefined global value 
+ undefined represent a system level unexpected, or error-like absence of a value
+ null represents a program-level normal, or expected absence of a value
+
+ ## The Global Object
+ The Global Object defines symblos that are available to JavaScript program
+ When JavaScript interpreter starts it creates a new globalobject and gives it
+ a set of initial set of properties that define:
+ - global properties like undefined, Infinity, NaN
+ - Global funtions like isNaN(), ParseInt(), eval()
+ - Constructor functions like Date(), RegExp(), String(), Object(), and Array()
+ - Global objects like Math and JSON
+
+ In top level code in JavaScript this is used to refer to global object
+ In client side JavaScript window object is the global object that defines core global properties
+
+ ## Wrapper Objects
+ ** Temporary objects are created when you access a property of a string, number, or boolean the are known as **wrapper objects**
+ String, Number, and Booleans are not objects when your refer to a property of these types a temporary wrapper is created that converts the types to objects the object inherits methods that is used to resolve property reference
