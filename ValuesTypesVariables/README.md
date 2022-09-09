@@ -50,3 +50,7 @@ which has methods to perform complex operations such as Square root, and power o
 - /^HMTL/ // Math the letters H T M L at the start of a string
 - /[1-9][1-9]*/ // Match a non-zero digit ,followed by any # of digits
 - /\bjavascript\b/i // Match "javascript" as a word, case-insensitive
+
+## Boolean Values 
+ Boolean values represents truth or false, yes or no and on or off
+ There are only two possible values for this type The reserved words true and false
