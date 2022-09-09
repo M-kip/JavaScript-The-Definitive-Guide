@@ -34,3 +34,19 @@ which has methods to perform complex operations such as Square root, and power o
 ## Date and Times
  JavaScript include a Date() construcotr for creating date objects
  The date object exposes and API for simple date computations
+
+## String
+- A string is an immutable ordered sequence of 16bit values, each of which typically represents a Unicode character
+- The length of a String is usually the of of 16bit values it contains
+- String in javascript use zero base indexing
+**String Literal** is a string enclosed in double or single quotes
+ **Java Standard dictates we write our string in single quotes**
+
+# Pattern Matching
+ JavaScript defines a RegExp() constructor for creating objects that represent textual patterns
+ These patterns are described with regular expressions javascript adopts Perl's syntax for regular experssions.
+
+**Examples**
+- /^HMTL/ // Math the letters H T M L at the start of a string
+- /[1-9][1-9]*/ // Match a non-zero digit ,followed by any # of digits
+- /\bjavascript\b/i // Match "javascript" as a word, case-insensitive
