@@ -98,3 +98,11 @@ which has methods to perform complex operations such as Square root, and power o
 
  Objects are sometimes called reference types to distiguish them from JavaScript's primitive types
  Using this terminoly, objects values are references, and we can say that objects are computed by reference: two objects are the same if and only if the refer to the same underlying object
+
+# Type Conversions
+ JavaScript is very flexible about the types of values it requires
+ If java script needs a string the value is converted to a string
+
+ **Example**
+ 10 + " Objects" // => "10 objects". Number 10 coverts to a string
+ "7" * "4" // => 28: both strings convert to numbers
