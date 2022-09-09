@@ -54,3 +54,17 @@ which has methods to perform complex operations such as Square root, and power o
 ## Boolean Values 
  Boolean values represents truth or false, yes or no and on or off
  There are only two possible values for this type The reserved words true and false
+
+ **Boolean values** are commonly used in JavaScript control structures for example
+ the if/else statement
+
+ **Any JavaScript value can be converted to boolean value **
+ - undefined
+ - null
+ - 0
+ - -0
+ - NaN
+ - "" // empty string
+ Converts to false
+
+ While all positive values and objects convert to true
