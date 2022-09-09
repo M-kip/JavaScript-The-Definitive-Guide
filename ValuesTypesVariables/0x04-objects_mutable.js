@@ -22,3 +22,9 @@ var o = { X:1 }, p = { x:1 }; // Two objects with the same properties
 console.log('Compare two objects with same properties: ', ( o === p )); // => false
 var a = [], b = []; // two distinct, empty arrays
 console.log('Comparison btwn two distinct arrays: ', (a === b)); // false: distinct arrays are never equal
+
+var a = [];
+var b = a; // refers to the object a
+b[0] = 5; // mutate the array refered to by b which is a
+// compare the two objects if the refer to the same object
+console.log('Compare two objects: ', (a === b));
